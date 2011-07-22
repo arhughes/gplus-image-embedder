@@ -1,0 +1,16 @@
+{
+    "name": "GPlus Comment Image Embedder",
+    "version": "0.1",
+    "description": "Embeds images in Google+ comments",
+    "content_scripts": [
+    {
+        "js": [ "embed.js" ],
+        "css": [ "embed.css" ],
+        "all_frames": true,
+        "matches": [ "https://plus.google.com/*" ]
+    }],
+    "permissions": [
+        "https://plus.google.com/*"
+    ]
+}
+
